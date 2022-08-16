@@ -1,0 +1,84 @@
+// import React, { useState, useEffect } from "react";
+// // import fs from "fs";
+// const App = () => {
+//   const [body, setBody] = useState("");
+
+//   let flex = {
+//     display: "flex",
+//   };
+//   return (
+//     <div className="app">
+//       <div className="add-post-container" style={flex}>
+//         <br></br>
+//         <textarea
+//           name=""
+//           className="form-control"
+//           id=""
+//           placeholder="Search..."
+//           value={body}
+//           onChange={(e) => setBody(e.target.value)}
+//         ></textarea>
+//         <br></br>
+
+//         <button type="submit">Search Country</button>
+//       </div>
+//       {/* ... */}
+//     </div>
+//   );
+// };
+
+// export default App;
+//////////////////
+
+
+      {/* <div className="add-post-container" style={mysearh}>
+        <br></br>
+        <input
+          type="text"
+          className="form-control"
+          placeholder="Search..."
+          onChange={(e) => setSearch(e.target.value)}
+        >
+          {/* {post.filter((i) => {
+            if (search === "") {
+              return post.map(i=>i.name)
+            } else if (
+              post.name.toLowerCase().includes(search.toLocaleLowerCase())
+            ) {
+              return <h1>{post.name}</h1>;
+            }
+          })} */}
+        
+
+        {/* <button type="submit">Search Country</button> */}
+      // </div> */}
+
+
+
+      // <div>
+
+    //   {post.map((item) => (
+    //     <div className="countries">
+    //       <ul className="ul">
+    //         <li className="items" key={item.id}>
+    //           <img
+    //             src={item.flag}
+    //             width="350px"
+    //             height="200px"
+    //             alt={item.name}
+    //           />
+    //           <h2 className="post-title">{item.name}</h2>
+    //           <p className="post-title">
+    //             Population:<b> {item.population}</b>
+    //           </p>
+    //           <p className="post-title">
+    //             Region: <b>{item.region} </b>
+    //           </p>
+    //           <p className="post-title">
+    //             Capital: <b>{item.capital}</b>
+    //           </p>
+    //         </li>
+    //       </ul>
+    //     </div>
+    //   ))}
+    // </div>
