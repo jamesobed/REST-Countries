@@ -3,15 +3,6 @@ import React from "react";
 const Filter = () => {
   return (
     <section className="filter">
-      <form className="form-control">
-        <input
-          type="search"
-          name="search"
-          id="search"
-          placeholder="Search for Country "
-        ></input>
-      </form>
- 
       <div name="select" id="select" className="select">
         <select name="select" id="select" className="select">
           <option value="filter by region"> Filter by region</option>
