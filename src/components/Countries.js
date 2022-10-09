@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 const url = "https://restcountries.com/v2/all";
 
@@ -17,6 +17,18 @@ const Country = () => {
     fetchedApi();
   }, []);
 
+  const innputRef = useRef(null);
+  const handleSearch = (e) => {
+    e.preventDefault();
+    // setSearch(innputRef.current.value);
+    if (search === "") {
+      setSearch(innputRef.current.value);
+    } else {
+      innputRef.current.value = "";
+      setSearch("");
+    }
+  };
+  
   return (
     <>
       {" "}
